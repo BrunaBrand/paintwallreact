@@ -19,15 +19,10 @@ Abra o terminal (GitBash, Comander, ou o próprio terminal do VScode.)
 
 clone o repositório executando :
 
-- SSH:
-
-  git clone git@gitlab.com:BrunaBrandao/paint-digital-wall.git
-
-  ou
 
 - HTTPS:
 
-  git clone https://gitlab.com/BrunaBrandao/paint-digital-wall.git
+  https://github.com/BrunaBrand/paintwallreact.git
 
 Após a conclusão do clone, verique onde se encontra a pasta na sua máquina (na minha por exemplo, se encontra dentro de documents) e acesse a pasta pelo terminal executando o comando:
 
