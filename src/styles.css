@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  color: #ccc;
+  
+  
+ 
+}
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+input{
+  color: black;
+}
+
+b{
+  
+  font-size: 20px;
+}
+
+#logo-paint{
+  width: 100px;
+  height: 100px;
+  
+  margin-top: 180px;
+  
+  
+}
+
+.message{
+  text-align: center;
+  /* margin-top: -105px; */
+  
+}
+
+.information{
+  font-size: 13px;
+  color: tomato;
+  margin: 15px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 500px;
+  /* margin: auto; */
+  
+}
+.form-content {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.wall-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+  border-radius: 4px;
+  height: max-content;
+  
+}
+.form-controll {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.form-controll .full-width {
+  grid-column: 1/3;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffbb00;
+  border-radius: 4px;
+  -webkit-appearance: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+p.error {
+  font-size: 10px;
+  color: tomato;
+}
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 0;
+  background-color:  #c29008;
+  border-radius: 4px;
+  cursor: pointer;
+}
